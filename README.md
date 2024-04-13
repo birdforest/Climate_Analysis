@@ -13,5 +13,5 @@ Challenge 10
 ## Design the Climate App
 - Import the dependencies, reflect on existing database into a new mode, reflect the tables, save references to each table and create the link from Python to the database
 - Flask Setup / Routes by listing out all available API routes
-- For the static API routes, create one for precipitation that returns the JSON representation of the dictionary that uses 'date' as the key abd 'prcp' as the value, create one for stations that returns a JSON list of stations from the dataset, and create one for tobs that returns a JSON list of temperature observations for the previous year for the most active station
+- For the static API routes, create one for precipitation that returns the JSON representation of the dictionary that uses 'date' as the key and 'prcp' as the value, create one for stations that returns a JSON list of stations from the dataset, and create one for tobs that returns a JSON list of temperature observations for the previous year for the most active station
 - For the dynamic API routes, create one for start_date and one for start_end_dates to return a JSON list of the minimum, average, and maximum temperature for a specific start and start-end range.
